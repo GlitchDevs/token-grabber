@@ -216,6 +216,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 -------------------------------------------------------------- */
 
 
+/* Button colour styles */
+
+.btn-black{
+	background:#000000;
+	color:#FFFFFF!important;
+}
+.btn-black:hover{
+	background:#000000!important;
+	color:#FFFFFF!important;
+}
+
 
 /* = Custom Bric Data
 -------------------------------------------------------------- */
@@ -241,36 +252,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	top: initial;
 	bottom: 0;
 }
-.faqwrapper .qline {
-	  display: block;
-	  position: relative;
-	  cursor: pointer}.faqwrapper .faq-q {
-	  display: inline;
-	  position: relative;
-	  padding-right: .35em;
-	  font-size: 1.5em;
-	  line-height: 120%;
-	  color: #616161}  .faqwrapper .fa {
-	  display: inline;
-	  position: relative;
-	  margin-left: .12em;
-	  padding-bottom: .25em;
-	  line-height: 60%;
-	  color: #616161}  .faqwrapper .aline {
-	  display: block;
-	  position: relative;
-	  padding-left: .75em}    .faqwrapper .faq-a {
-	  position: relative;
-	  font-size: 1em;
-	  line-height: 100%;
-	  color: #616161}  .faqwrapper .left {
-	  text-align: left}  .faqwrapper .center {
-	  text-align: center}  .faqwrapper .aline.center {
-	  padding-left: 0em}    .faqwrapper .right {
-	  text-align: right}  .faqwrapper .aline.right {
-	  padding-right: 2.25em}    .faqwrapper .hide {
-	  display: none}  .faqwrapper .reveal {
-	  display: block}      
+
 
 /* = Mobile adjustments 
 -------------------------------------------------------------- */
